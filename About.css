@@ -1,5 +1,7 @@
 h1{
     text-align:center;
+	animation: rainbow 0.5s;
+    animation-iteration-count: infinite;
 }
 font{
     text-align: center;
@@ -21,10 +23,7 @@ font{
   width: 1000px;
   
  }
- h1{
-    animation: rainbow 0.5s;
-    animation-iteration-count: infinite;
-  }
+
   @keyframes rainbow{
 		100%,0%{
 			color: rgb(255,0,0);
