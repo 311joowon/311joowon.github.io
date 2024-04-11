@@ -1,7 +1,10 @@
 h1{
     text-align:center;
-    animation: rainbow 0.5s;
-    animation-iteration-count: infinite;
+    
+}
+span{
+	animation: rainbow 0.5s;
+    	animation-iteration-count: infinite;
 }
 font{
     text-align: center;
